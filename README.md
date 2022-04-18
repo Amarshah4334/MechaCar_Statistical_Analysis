@@ -36,16 +36,19 @@ The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCar
 When we run the Linear regression code we can see:
 
 Lenght of an Automotive and its ground clearance are important factors that will impact milage. These will determine the drag and friction that will determine the energy required for forward propulsion and will provide non-random amounts of variance on the MechaCar prototype. But the weight + all wheel drive + spoiler angle can provide random amounts of varience in the data all based on the p-value.
+![image](https://user-images.githubusercontent.com/96351897/163761737-d77d63fe-d5dd-435b-af2a-b5aaa9fb65dd.png)
 
 
 2. Is the slope of the linear model considered to be zero? Why or why not?
  MechaCar has a p-Value: 5.35e-11 which is smaller than the significance level of 0.05%. The Evidence is enough to reject the null hypothesis, that means the slope of this linear model is not considered to be zero.
 
+![image](https://user-images.githubusercontent.com/96351897/163761762-dfa9d0ee-ec88-434e-8874-27dbcb6a112d.png)
 
 
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 R Square is 0.7149 = 71% mpg variations due changes in vahicles length, weight, spoiler angle, AWD, ground clearance etc. Hence the linear model is not quiet efficient in predicting the Mpg of MechaCar. If these variables are removed the predictability reduces to r- squared value of 0.674 = 67% but then its much more efficient in predicting the Mpg of MechaCar prototypes due to lack of these variables.
 
+![image](https://user-images.githubusercontent.com/96351897/163761797-35404223-57ca-4057-8697-7c2ef2c59913.png)
 
 
 # Deliverable 2: Create Visualizations for the Trip Analysis (30 points)
@@ -61,6 +64,20 @@ Then, in the README.md, you’ll briefly detail and interpret the suspension coi
 1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 Based on design specifications for MechaCar the variance of the suspension coils must not exceed 100 pounds per square inch however based on our findings the variance of the coils is 62.29 PSI, which is well within the requirements. In consideration of the different lots in Lot 1 the psi is 0.98 and in Lot 2 it is 7.47 and are more consistent compared to Lot 3 which is out of range for varience at psi of 170.29.
+# Lot_Summary
+
+![image](https://user-images.githubusercontent.com/96351897/163761856-f97f837e-84b8-412d-a09f-d03c0b977827.png)
+
+
+![image](https://user-images.githubusercontent.com/96351897/163761893-82bcfda3-b986-42f7-a598-4c67e78756c8.png)
+
+# Total_Summary
+
+![image](https://user-images.githubusercontent.com/96351897/163761994-4fb84ee5-885d-48e8-8a41-64ce9581082a.png)
+
+
+![image](https://user-images.githubusercontent.com/96351897/163762014-e276dbc5-227b-4feb-b3d4-3ee862fb9406.png)
+
 
 
 
@@ -73,14 +90,18 @@ Using your knowledge of R, perform t-tests to determine if all manufacturing lot
 
 Total Summary
 The mean is 1498.78, the p-Value is 0.06, and is higher than the common significance level of 0.05, the evidence is not enough for rejecting the null hypothesis. The data shows all means to be close to population mean of 1500.
+![image](https://user-images.githubusercontent.com/96351897/163762080-e432406d-f872-473f-b071-c9d424d2fb47.png)
 
 Lot Summary
 
 Lot 1 has a mean of 1500, a p-Value of 1, we accept the null hypothesis because there is no significant difference in Lot 1 values and population mean.
+![image](https://user-images.githubusercontent.com/96351897/163762096-a1edc852-e9f9-4285-a96a-5d90f62b12f6.png)
 
 Lot 2 is fairly similar as well with a mean of 1500.02, a p-Value of 0.61; hence here as well we accept the the null hypothesis 
+![image](https://user-images.githubusercontent.com/96351897/163762113-7283f3f6-1e98-4146-a298-95e3f216eb09.png)
 
 Lot 3, has a sample mean of 1496.14, a p-Value of 0.04, which is lower than the significance level of 0.05. Here we will accept the null hypothesis because population mean and and sample mean are not different.
+![image](https://user-images.githubusercontent.com/96351897/163762138-7a988707-ac14-490d-951f-0db1524470ac.png)
 
 
 # Deliverable 4: Design a Study Comparing the MechaCar to the Competition (20 points)
