@@ -1,6 +1,13 @@
 # MechaCar_Statistical_Analysis
 Using R and R Studio
 
+
+# Overview 
+
+
+Jeremy has been working with autos r us for 10 years. In his time he's seen a lot of cars come and go and the company is finally realizing that their decision making process could be moved into the 21st century. Jeremy with his strong internal connections and exhaustive knowledge of the product has been selected as the primary analyst of the company's data analytics team This team is in charge of performing retrospective analysis of historical data. Analytical verification and validation of current automotive specifications, and study design of future product testing. the autos r us  executive team recognizes the most successful automotive watches utilized data analytics in every decision making process. Therefore, Jeremy must ensure that his analysis contains statistical backbone, quantitative metric, and clear interpretation of the results in order to keep the upper management happy. Additionally the autos r us  data team consists of five members who only know how to program using R. So Jeremy will need to learn a new language in order to perform those statistical tests. I will help Jeremy perform the discipline test using the R program I will provide summary statistics for different variables, visualizations for different datasets and my interpretation of statistical test results. In addition, I will use critical thinking skills to propose my own study design, hypothesis and analysis workflow in order to make autos r US manufacturing process even better
+
+
 # Background
 A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
 
